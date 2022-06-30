@@ -1,5 +1,4 @@
 NOTE:
-
 1. Ensure data is stored in the format 
       dataset -> training_set -> cats -> cats_images
       dataset -> training_set -> dogs -> dogs_images
