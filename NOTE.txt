@@ -1,0 +1,10 @@
+NOTE:
+
+1. Ensure data is stored in the format 
+      dataset -> training_set -> cats -> cats_images
+      dataset -> training_set -> dogs -> dogs_images
+      dataset -> test_set -> cats -> cats_images
+      dataset -> test_set -> dogs -> dogs_images
+2. Total number of training images (i.e. cats_img + dogs_img) need to be passed in correctly as 'samples_per_epoch' in .fit_generator function.
+3. Total number of test images (i.e. cats_img + dogs_img) need to be passed in correctly as 'nb_val_samples' in .fit_generator function.
+4. Folder for prediction of single image: prediction -> cat_or_dog.img
